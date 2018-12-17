@@ -22,6 +22,7 @@ public class UserController {
 
     @RequestMapping("/queryUserList")
     public List<User>  queryUserList(){
+        System.out.println("8888888888888");
 		System.out.println("springframework1111");
         return  userMapper.queryUserList();
     }
