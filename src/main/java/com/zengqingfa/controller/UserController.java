@@ -25,6 +25,7 @@ public class UserController {
         System.out.println("8888888888888");
 		System.out.println("springframework1111");
 		System.out.println("test--commit");
+        System.out.println("test-idea-commit");
         return  userMapper.queryUserList();      
     }
 
