@@ -5,4 +5,10 @@
     <select id="queryUserList" resultType="user">
         select * from user
     </select>
+
+    <select id="findById" parameterType="java.lang.Integer" resultType="user">
+        select * from user where id=#{ id}
+    </select>
+
+
 </mapper>

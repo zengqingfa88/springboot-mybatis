@@ -16,4 +16,5 @@ public interface UserMapper {
 
     public List<User> queryUserList();
 
+    User findById(Integer id);
 }
